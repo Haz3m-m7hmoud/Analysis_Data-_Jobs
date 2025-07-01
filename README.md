@@ -23,7 +23,7 @@ Git & GitHub: for version control and project sharing.
 Data Cleaning and Preparation
 The dataset was imported and cleaned to focus on jobs in the United States. Skill fields were converted from string to lists, and missing or inconsistent values were handled.
 
-python
+
 
 ```python
 import ast  
@@ -37,7 +37,8 @@ dataset = load_dataset("lukebarousse/data_jobs")
 df = dataset['train'].to_pandas()  
 df['job_posted_date'] = pd.to_datetime(df['job_posted_date'])  
 df['job_skills'] = df['job_skills'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else x)  
-df_US = df[df['job_country'] == 'United States'] ```
+df_US = df[df['job_country'] == 'United States']
+```
 Analysis and Visualizations
 
 1. Most In-Demand Skills for the Top 3 Common Job Titles
@@ -65,6 +66,7 @@ Python and Tableau maintained stable demand.
 3. Salary Analysis by Job Title and Skill
    Salaries for key roles were analyzed, along with the impact of specific skills on salary.
    ![Salary Distribution](images/distrebution.png)
+   
    [Salary Distribution]
 
 Senior roles (e.g., Senior Data Scientist/Engineer) have the highest salaries.
