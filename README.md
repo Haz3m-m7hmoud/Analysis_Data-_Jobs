@@ -100,5 +100,6 @@ Designing visualizations that clearly communicate results.
 
 Balancing detailed analysis with an overall picture.
 
-Conclusion
+Conclusion:
+
 This project provides a clear picture of the data analytics job market in the U.S. It helps anyone interested in this field identify which skills to focus on to achieve the best job opportunities and highest income.
