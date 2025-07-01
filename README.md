@@ -54,7 +54,7 @@ Python is highly demanded across all three roles.
 
 2. Skill Trends for Data Analysts Over Time
    The monthly demand for top skills in 2023 was analyzed.
-   ![Skill Trends](images/rending_top.png)
+   ![Skill Trends](images/tranding_top.png)
    [Skill Trends]
 
 SQL demand remained steady throughout the year.
