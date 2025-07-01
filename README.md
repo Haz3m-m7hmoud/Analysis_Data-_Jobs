@@ -25,18 +25,7 @@ The dataset was imported and cleaned to focus on jobs in the United States. Skil
 
 python
 
-import ast  
-import pandas as pd  
-import seaborn as sns  
-from datasets import load_dataset  
-import matplotlib.pyplot as plt
-
-dataset = load_dataset[lukebarousse/data_jobs](https://huggingface.co/datasets/lukebarousse/data_jobs)
-
-df = dataset['train'].to_pandas()  
-df['job_posted_date'] = pd.to_datetime(df['job_posted_date'])  
-df['job_skills'] = df['job_skills'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else x)  
-df_US = df[df['job_country'] == 'United States']
+<pre><code>```python import ast import pandas as pd import seaborn as sns from datasets import load_dataset import matplotlib.pyplot as plt dataset = load_dataset("lukebarousse/data_jobs") df = dataset['train'].to_pandas() df['job_posted_date'] = pd.to_datetime(df['job_posted_date']) df['job_skills'] = df['job_skills'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else x) df_US = df[df['job_country'] == 'United States'] ```</code></pre>
 Analysis and Visualizations
 
 1. Most In-Demand Skills for the Top 3 Common Job Titles
@@ -71,7 +60,7 @@ Senior roles (e.g., Senior Data Scientist/Engineer) have the highest salaries.
 Data analysts have more stable but lower salary ranges.
 
 Top-Paying and Most In-Demand Skills for Data Analysts
-![High Paying and In-Demand Skills](images/most_in_demand.png)
+![High Paying and In-Demand Skills](images\most_in demand.png.png)
 
 Specialized technical skills like dplyr and Bitbucket are associated with higher salaries.
 
