@@ -74,7 +74,7 @@ Senior roles (e.g., Senior Data Scientist/Engineer) have the highest salaries.
 Data analysts have more stable but lower salary ranges.
 
 Top-Paying and Most In-Demand Skills for Data Analysts
-![High Paying and In-Demand Skills](images\most_in_demand.png)
+![High Paying and In-Demand Skills](images/most_in_demand.png)
 
 Specialized technical skills like dplyr and Bitbucket are associated with higher salaries.
 
