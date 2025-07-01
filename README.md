@@ -43,7 +43,9 @@ Analysis and Visualizations
 
 1. Most In-Demand Skills for the Top 3 Common Job Titles
    The three most frequent job titles were identified, and the top 15 required skills for each were extracted.
+
    ![Most Demanded Skills](images/output.png)
+
    [Most In-Demand Skills]
 
 SQL is the most in-demand skill for data analysts and data scientists.
@@ -54,7 +56,9 @@ Python is highly demanded across all three roles.
 
 2. Skill Trends for Data Analysts Over Time
    The monthly demand for top skills in 2023 was analyzed.
+   
    ![Skill Trends](images/tranding_top.png)
+   
    [Skill Trends]
 
 SQL demand remained steady throughout the year.
@@ -65,6 +69,7 @@ Python and Tableau maintained stable demand.
 
 3. Salary Analysis by Job Title and Skill
    Salaries for key roles were analyzed, along with the impact of specific skills on salary.
+   
    ![Salary Distribution](images/distrebution.png)
    
    [Salary Distribution]
@@ -74,6 +79,7 @@ Senior roles (e.g., Senior Data Scientist/Engineer) have the highest salaries.
 Data analysts have more stable but lower salary ranges.
 
 Top-Paying and Most In-Demand Skills for Data Analysts
+
 ![High Paying and In-Demand Skills](images/most_in_demand.png)
 
 Specialized technical skills like dplyr and Bitbucket are associated with higher salaries.
